@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B6674B27AD9DFE0013C4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6674A27AD9DFE0013C4E2 /* AppDelegate.swift */; };
+		11B6674D27AD9DFE0013C4E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6674C27AD9DFE0013C4E2 /* SceneDelegate.swift */; };
+		11B6674F27AD9DFE0013C4E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6674E27AD9DFE0013C4E2 /* ViewController.swift */; };
+		11B6675227AD9DFE0013C4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B6675027AD9DFE0013C4E2 /* Main.storyboard */; };
+		11B6675427AD9E000013C4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B6675327AD9E000013C4E2 /* Assets.xcassets */; };
+		11B6675727AD9E000013C4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B6675527AD9E000013C4E2 /* LaunchScreen.storyboard */; };
+		11B6676227AD9E010013C4E2 /* Meijer_IOS_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6676127AD9E010013C4E2 /* Meijer_IOS_APPTests.swift */; };
+		11B6676C27AD9E010013C4E2 /* Meijer_IOS_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6676B27AD9E010013C4E2 /* Meijer_IOS_APPUITests.swift */; };
+		11B6676E27AD9E010013C4E2 /* Meijer_IOS_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6676D27AD9E010013C4E2 /* Meijer_IOS_APPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B6675E27AD9E010013C4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B6673F27AD9DFD0013C4E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B6674627AD9DFE0013C4E2;
+			remoteInfo = "Meijer IOS APP";
+		};
+		11B6676827AD9E010013C4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B6673F27AD9DFD0013C4E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B6674627AD9DFE0013C4E2;
+			remoteInfo = "Meijer IOS APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11B6674727AD9DFE0013C4E2 /* Meijer IOS APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meijer IOS APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B6674A27AD9DFE0013C4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11B6674C27AD9DFE0013C4E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11B6674E27AD9DFE0013C4E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11B6675127AD9DFE0013C4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B6675327AD9E000013C4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B6675627AD9E000013C4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11B6675827AD9E000013C4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B6675D27AD9E010013C4E2 /* Meijer IOS APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meijer IOS APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B6676127AD9E010013C4E2 /* Meijer_IOS_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meijer_IOS_APPTests.swift; sourceTree = "<group>"; };
+		11B6676727AD9E010013C4E2 /* Meijer IOS APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meijer IOS APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B6676B27AD9E010013C4E2 /* Meijer_IOS_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meijer_IOS_APPUITests.swift; sourceTree = "<group>"; };
+		11B6676D27AD9E010013C4E2 /* Meijer_IOS_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meijer_IOS_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B6674427AD9DFE0013C4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B6675A27AD9E010013C4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B6676427AD9E010013C4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B6673E27AD9DFD0013C4E2 = {
+			isa = PBXGroup;
+			children = (
+				11B6674927AD9DFE0013C4E2 /* Meijer IOS APP */,
+				11B6676027AD9E010013C4E2 /* Meijer IOS APPTests */,
+				11B6676A27AD9E010013C4E2 /* Meijer IOS APPUITests */,
+				11B6674827AD9DFE0013C4E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B6674827AD9DFE0013C4E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B6674727AD9DFE0013C4E2 /* Meijer IOS APP.app */,
+				11B6675D27AD9E010013C4E2 /* Meijer IOS APPTests.xctest */,
+				11B6676727AD9E010013C4E2 /* Meijer IOS APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B6674927AD9DFE0013C4E2 /* Meijer IOS APP */ = {
+			isa = PBXGroup;
+			children = (
+				11B6674A27AD9DFE0013C4E2 /* AppDelegate.swift */,
+				11B6674C27AD9DFE0013C4E2 /* SceneDelegate.swift */,
+				11B6674E27AD9DFE0013C4E2 /* ViewController.swift */,
+				11B6675027AD9DFE0013C4E2 /* Main.storyboard */,
+				11B6675327AD9E000013C4E2 /* Assets.xcassets */,
+				11B6675527AD9E000013C4E2 /* LaunchScreen.storyboard */,
+				11B6675827AD9E000013C4E2 /* Info.plist */,
+			);
+			path = "Meijer IOS APP";
+			sourceTree = "<group>";
+		};
+		11B6676027AD9E010013C4E2 /* Meijer IOS APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				11B6676127AD9E010013C4E2 /* Meijer_IOS_APPTests.swift */,
+			);
+			path = "Meijer IOS APPTests";
+			sourceTree = "<group>";
+		};
+		11B6676A27AD9E010013C4E2 /* Meijer IOS APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11B6676B27AD9E010013C4E2 /* Meijer_IOS_APPUITests.swift */,
+				11B6676D27AD9E010013C4E2 /* Meijer_IOS_APPUITestsLaunchTests.swift */,
+			);
+			path = "Meijer IOS APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B6674627AD9DFE0013C4E2 /* Meijer IOS APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B6677127AD9E010013C4E2 /* Build configuration list for PBXNativeTarget "Meijer IOS APP" */;
+			buildPhases = (
+				11B6674327AD9DFE0013C4E2 /* Sources */,
+				11B6674427AD9DFE0013C4E2 /* Frameworks */,
+				11B6674527AD9DFE0013C4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meijer IOS APP";
+			productName = "Meijer IOS APP";
+			productReference = 11B6674727AD9DFE0013C4E2 /* Meijer IOS APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B6675C27AD9E010013C4E2 /* Meijer IOS APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B6677427AD9E010013C4E2 /* Build configuration list for PBXNativeTarget "Meijer IOS APPTests" */;
+			buildPhases = (
+				11B6675927AD9E010013C4E2 /* Sources */,
+				11B6675A27AD9E010013C4E2 /* Frameworks */,
+				11B6675B27AD9E010013C4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B6675F27AD9E010013C4E2 /* PBXTargetDependency */,
+			);
+			name = "Meijer IOS APPTests";
+			productName = "Meijer IOS APPTests";
+			productReference = 11B6675D27AD9E010013C4E2 /* Meijer IOS APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11B6676627AD9E010013C4E2 /* Meijer IOS APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B6677727AD9E010013C4E2 /* Build configuration list for PBXNativeTarget "Meijer IOS APPUITests" */;
+			buildPhases = (
+				11B6676327AD9E010013C4E2 /* Sources */,
+				11B6676427AD9E010013C4E2 /* Frameworks */,
+				11B6676527AD9E010013C4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B6676927AD9E010013C4E2 /* PBXTargetDependency */,
+			);
+			name = "Meijer IOS APPUITests";
+			productName = "Meijer IOS APPUITests";
+			productReference = 11B6676727AD9E010013C4E2 /* Meijer IOS APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B6673F27AD9DFD0013C4E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					11B6674627AD9DFE0013C4E2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					11B6675C27AD9E010013C4E2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 11B6674627AD9DFE0013C4E2;
+					};
+					11B6676627AD9E010013C4E2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 11B6674627AD9DFE0013C4E2;
+					};
+				};
+			};
+			buildConfigurationList = 11B6674227AD9DFD0013C4E2 /* Build configuration list for PBXProject "Meijer IOS APP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B6673E27AD9DFD0013C4E2;
+			productRefGroup = 11B6674827AD9DFE0013C4E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B6674627AD9DFE0013C4E2 /* Meijer IOS APP */,
+				11B6675C27AD9E010013C4E2 /* Meijer IOS APPTests */,
+				11B6676627AD9E010013C4E2 /* Meijer IOS APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B6674527AD9DFE0013C4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B6675727AD9E000013C4E2 /* LaunchScreen.storyboard in Resources */,
+				11B6675427AD9E000013C4E2 /* Assets.xcassets in Resources */,
+				11B6675227AD9DFE0013C4E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B6675B27AD9E010013C4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B6676527AD9E010013C4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B6674327AD9DFE0013C4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B6674F27AD9DFE0013C4E2 /* ViewController.swift in Sources */,
+				11B6674B27AD9DFE0013C4E2 /* AppDelegate.swift in Sources */,
+				11B6674D27AD9DFE0013C4E2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B6675927AD9E010013C4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B6676227AD9E010013C4E2 /* Meijer_IOS_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B6676327AD9E010013C4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B6676E27AD9E010013C4E2 /* Meijer_IOS_APPUITestsLaunchTests.swift in Sources */,
+				11B6676C27AD9E010013C4E2 /* Meijer_IOS_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B6675F27AD9E010013C4E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B6674627AD9DFE0013C4E2 /* Meijer IOS APP */;
+			targetProxy = 11B6675E27AD9E010013C4E2 /* PBXContainerItemProxy */;
+		};
+		11B6676927AD9E010013C4E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B6674627AD9DFE0013C4E2 /* Meijer IOS APP */;
+			targetProxy = 11B6676827AD9E010013C4E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11B6675027AD9DFE0013C4E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B6675127AD9DFE0013C4E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11B6675527AD9E000013C4E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B6675627AD9E000013C4E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B6676F27AD9E010013C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B6677027AD9E010013C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B6677227AD9E010013C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DKCA8VN594;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meijer IOS APP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meijer-IOS-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B6677327AD9E010013C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DKCA8VN594;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meijer IOS APP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meijer-IOS-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11B6677527AD9E010013C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DKCA8VN594;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meijer-IOS-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meijer IOS APP.app/Meijer IOS APP";
+			};
+			name = Debug;
+		};
+		11B6677627AD9E010013C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DKCA8VN594;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meijer-IOS-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meijer IOS APP.app/Meijer IOS APP";
+			};
+			name = Release;
+		};
+		11B6677827AD9E010013C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DKCA8VN594;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meijer-IOS-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meijer IOS APP";
+			};
+			name = Debug;
+		};
+		11B6677927AD9E010013C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DKCA8VN594;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meijer-IOS-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meijer IOS APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B6674227AD9DFD0013C4E2 /* Build configuration list for PBXProject "Meijer IOS APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B6676F27AD9E010013C4E2 /* Debug */,
+				11B6677027AD9E010013C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B6677127AD9E010013C4E2 /* Build configuration list for PBXNativeTarget "Meijer IOS APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B6677227AD9E010013C4E2 /* Debug */,
+				11B6677327AD9E010013C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B6677427AD9E010013C4E2 /* Build configuration list for PBXNativeTarget "Meijer IOS APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B6677527AD9E010013C4E2 /* Debug */,
+				11B6677627AD9E010013C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B6677727AD9E010013C4E2 /* Build configuration list for PBXNativeTarget "Meijer IOS APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B6677827AD9E010013C4E2 /* Debug */,
+				11B6677927AD9E010013C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B6673F27AD9DFD0013C4E2 /* Project object */;
+}
