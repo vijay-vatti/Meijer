@@ -16,6 +16,9 @@
 		11B6676227AD9E010013C4E2 /* Meijer_IOS_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6676127AD9E010013C4E2 /* Meijer_IOS_APPTests.swift */; };
 		11B6676C27AD9E010013C4E2 /* Meijer_IOS_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6676B27AD9E010013C4E2 /* Meijer_IOS_APPUITests.swift */; };
 		11B6676E27AD9E010013C4E2 /* Meijer_IOS_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6676D27AD9E010013C4E2 /* Meijer_IOS_APPUITestsLaunchTests.swift */; };
+		DD45699F27B10A3900C7AB03 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45699E27B10A3900C7AB03 /* HomeViewController.swift */; };
+		DD4569A127B115C400C7AB03 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569A027B115C300C7AB03 /* Items.swift */; };
+		DD4569A327B115D800C7AB03 /* ItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569A227B115D800C7AB03 /* ItemsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		11B6676727AD9E010013C4E2 /* Meijer IOS APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meijer IOS APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B6676B27AD9E010013C4E2 /* Meijer_IOS_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meijer_IOS_APPUITests.swift; sourceTree = "<group>"; };
 		11B6676D27AD9E010013C4E2 /* Meijer_IOS_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meijer_IOS_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD45699E27B10A3900C7AB03 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DD4569A027B115C300C7AB03 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		DD4569A227B115D800C7AB03 /* ItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				11B6675327AD9E000013C4E2 /* Assets.xcassets */,
 				11B6675527AD9E000013C4E2 /* LaunchScreen.storyboard */,
 				11B6675827AD9E000013C4E2 /* Info.plist */,
+				DD45699E27B10A3900C7AB03 /* HomeViewController.swift */,
+				DD4569A027B115C300C7AB03 /* Items.swift */,
+				DD4569A227B115D800C7AB03 /* ItemsCell.swift */,
 			);
 			path = "Meijer IOS APP";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				11B6674F27AD9DFE0013C4E2 /* ViewController.swift in Sources */,
+				DD4569A127B115C400C7AB03 /* Items.swift in Sources */,
+				DD4569A327B115D800C7AB03 /* ItemsCell.swift in Sources */,
 				11B6674B27AD9DFE0013C4E2 /* AppDelegate.swift in Sources */,
 				11B6674D27AD9DFE0013C4E2 /* SceneDelegate.swift in Sources */,
+				DD45699F27B10A3900C7AB03 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
