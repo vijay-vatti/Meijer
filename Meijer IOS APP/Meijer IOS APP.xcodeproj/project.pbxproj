@@ -19,6 +19,7 @@
 		DD45699F27B10A3900C7AB03 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45699E27B10A3900C7AB03 /* HomeViewController.swift */; };
 		DD4569A127B115C400C7AB03 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569A027B115C300C7AB03 /* Items.swift */; };
 		DD4569A327B115D800C7AB03 /* ItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569A227B115D800C7AB03 /* ItemsCell.swift */; };
+		DD4569A727B5AA5100C7AB03 /* ShoppingCartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569A627B5AA5100C7AB03 /* ShoppingCartController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		DD45699E27B10A3900C7AB03 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DD4569A027B115C300C7AB03 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 		DD4569A227B115D800C7AB03 /* ItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCell.swift; sourceTree = "<group>"; };
+		DD4569A627B5AA5100C7AB03 /* ShoppingCartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				DD45699E27B10A3900C7AB03 /* HomeViewController.swift */,
 				DD4569A027B115C300C7AB03 /* Items.swift */,
 				DD4569A227B115D800C7AB03 /* ItemsCell.swift */,
+				DD4569A627B5AA5100C7AB03 /* ShoppingCartController.swift */,
 			);
 			path = "Meijer IOS APP";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				11B6674F27AD9DFE0013C4E2 /* ViewController.swift in Sources */,
 				DD4569A127B115C400C7AB03 /* Items.swift in Sources */,
+				DD4569A727B5AA5100C7AB03 /* ShoppingCartController.swift in Sources */,
 				DD4569A327B115D800C7AB03 /* ItemsCell.swift in Sources */,
 				11B6674B27AD9DFE0013C4E2 /* AppDelegate.swift in Sources */,
 				11B6674D27AD9DFE0013C4E2 /* SceneDelegate.swift in Sources */,

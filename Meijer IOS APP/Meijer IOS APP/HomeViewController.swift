@@ -9,7 +9,38 @@ import Foundation
 import UIKit
 
 
-class HomeViewController: UIViewController{
+
+//ViewController.swift
+class HomeViewController: UIViewController, UISearchBarDelegate {
+    
+    @IBAction func cartButton(_ sender: Any) {
+        
+        print("Button press")
+        
+        self.performSegue(withIdentifier: "cartButtonPage", sender: self)
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setUpNavBar()
+    }
+    func setUpNavBar() {
+        let searchBar = UISearchBar()
+        searchBar.delegate = self
+        searchBar.sizeToFit()
+        searchBar.searchBarStyle = .minimal
+        searchBar.placeholder = "Search Item..."
+        searchBar.tintColor = UIColor.lightGray
+        searchBar.barTintColor = UIColor.lightGray
+        navigationItem.titleView = searchBar
+        searchBar.isTranslucent = true
+    }
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        self.present(UINavigationController(rootViewController: SearchViewController()), animated: false, completion: nil)
+    }
+}
+
+
+class SearchViewController: UIViewController{
     
     var fileteredItems = [Items]()
     let items = Items.GetAllItems()
@@ -32,6 +63,7 @@ class HomeViewController: UIViewController{
         object.searchBar.placeholder = "Search Items..."
         object.searchBar.sizeToFit()
         object.searchBar.searchBarStyle = .prominent
+        object.searchBar.barTintColor = .blue
         
         object.searchBar.scopeButtonTitles = ["All", "Grocery", "Household Essentials","Pet Care"]
         
@@ -40,13 +72,17 @@ class HomeViewController: UIViewController{
         
     }()
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Meijer"
         
         navigationItem.searchController = searchController
         
+        
         setupElements()
+        
         
     }
     
@@ -75,14 +111,14 @@ class HomeViewController: UIViewController{
 }
 
 
-extension HomeViewController: UISearchBarDelegate{
+extension SearchViewController: UISearchBarDelegate{
     
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
         filterItemForSearchText(searchText: searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
     }
 }
 
-extension HomeViewController: UISearchResultsUpdating{
+extension SearchViewController: UISearchResultsUpdating{
     
     func updateSearchResults(for searchController: UISearchController) {
         let searchBar = searchController.searchBar
@@ -92,7 +128,7 @@ extension HomeViewController: UISearchResultsUpdating{
     }
 }
 
-extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
+extension SearchViewController: UITableViewDelegate, UITableViewDataSource{
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -125,7 +161,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
 }
 
 
-extension HomeViewController {
+extension SearchViewController {
     
     func setupElements(){
         view.addSubview(tableView)

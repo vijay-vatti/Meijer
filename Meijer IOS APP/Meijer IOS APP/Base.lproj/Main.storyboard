@@ -11,7 +11,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="2Xm-IA-seX">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Uv-ba-d7l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="9hq-Np-xn1" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a7z-fK-kuF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -25,6 +24,7 @@
                         <segue destination="rwx-O7-bkr" kind="relationship" relationship="viewControllers" id="u4x-sk-jBA"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Uv-ba-d7l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-172" y="-1574"/>
         </scene>
@@ -102,11 +102,50 @@
                         <viewLayoutGuide key="safeArea" id="NW6-q7-x1A"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="Cq2-4E-BQK"/>
+                    <navigationItem key="navigationItem" title="Home" id="Cq2-4E-BQK">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="HXb-mg-r7e">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="V30-mp-Hrb">
+                                <rect key="frame" x="302" y="5" width="92" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="cartButton:" destination="Tnx-cF-PBG" eventType="touchUpInside" id="93g-uy-42L"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="vpo-aD-XpT" kind="showDetail" identifier="cartButtonPage" id="cmV-UY-P0L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2NN-iC-MUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1291.304347826087" y="150.66964285714286"/>
+            <point key="canvasLocation" x="-2330" y="459"/>
+        </scene>
+        <!--Shopping Cart Controller-->
+        <scene sceneID="o5K-FZ-8wW">
+            <objects>
+                <viewController storyboardIdentifier="ShoppingCartController" id="vpo-aD-XpT" customClass="ShoppingCartController" customModule="Meijer_IOS_APP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4m9-O0-WTS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shopping Cart " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRy-AG-NzJ">
+                                <rect key="frame" x="125" y="396" width="165" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kfa-ZD-oTK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ARe-cI-Lqu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1382.608695652174" y="458.70535714285711"/>
         </scene>
         <!--Weekly Ad-->
         <scene sceneID="ea5-TE-KvH">
@@ -175,6 +214,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
