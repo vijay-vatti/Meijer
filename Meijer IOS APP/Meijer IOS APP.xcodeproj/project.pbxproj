@@ -20,6 +20,8 @@
 		DD4569A127B115C400C7AB03 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569A027B115C300C7AB03 /* Items.swift */; };
 		DD4569A327B115D800C7AB03 /* ItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569A227B115D800C7AB03 /* ItemsCell.swift */; };
 		DD4569A727B5AA5100C7AB03 /* ShoppingCartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569A627B5AA5100C7AB03 /* ShoppingCartController.swift */; };
+		DD4569AB27BAF54500C7AB03 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569AA27BAF54500C7AB03 /* LogInController.swift */; };
+		DD4569AD27BAFAEA00C7AB03 /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4569AC27BAFAEA00C7AB03 /* CreateAccountController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		DD4569A027B115C300C7AB03 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 		DD4569A227B115D800C7AB03 /* ItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCell.swift; sourceTree = "<group>"; };
 		DD4569A627B5AA5100C7AB03 /* ShoppingCartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartController.swift; sourceTree = "<group>"; };
+		DD4569AA27BAF54500C7AB03 /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
+		DD4569AC27BAFAEA00C7AB03 /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				DD4569A027B115C300C7AB03 /* Items.swift */,
 				DD4569A227B115D800C7AB03 /* ItemsCell.swift */,
 				DD4569A627B5AA5100C7AB03 /* ShoppingCartController.swift */,
+				DD4569AA27BAF54500C7AB03 /* LogInController.swift */,
+				DD4569AC27BAFAEA00C7AB03 /* CreateAccountController.swift */,
 			);
 			path = "Meijer IOS APP";
 			sourceTree = "<group>";
@@ -273,8 +279,10 @@
 				11B6674F27AD9DFE0013C4E2 /* ViewController.swift in Sources */,
 				DD4569A127B115C400C7AB03 /* Items.swift in Sources */,
 				DD4569A727B5AA5100C7AB03 /* ShoppingCartController.swift in Sources */,
+				DD4569AD27BAFAEA00C7AB03 /* CreateAccountController.swift in Sources */,
 				DD4569A327B115D800C7AB03 /* ItemsCell.swift in Sources */,
 				11B6674B27AD9DFE0013C4E2 /* AppDelegate.swift in Sources */,
+				DD4569AB27BAF54500C7AB03 /* LogInController.swift in Sources */,
 				11B6674D27AD9DFE0013C4E2 /* SceneDelegate.swift in Sources */,
 				DD45699F27B10A3900C7AB03 /* HomeViewController.swift in Sources */,
 			);

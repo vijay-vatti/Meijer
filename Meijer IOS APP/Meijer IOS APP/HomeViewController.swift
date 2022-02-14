@@ -13,6 +13,14 @@ import UIKit
 //ViewController.swift
 class HomeViewController: UIViewController, UISearchBarDelegate {
     
+    
+    @IBAction func loginButton(_ sender: Any) {
+        print("Login Button")
+        
+        self.performSegue(withIdentifier: "loginSegue", sender: self)
+    }
+    
+    
     @IBAction func cartButton(_ sender: Any) {
         
         print("Button press")

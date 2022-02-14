@@ -28,12 +28,12 @@
             </objects>
             <point key="canvasLocation" x="-172" y="-1574"/>
         </scene>
-        <!--View Controller-->
+        <!--Login In Controller-->
         <scene sceneID="VhA-gV-nb8">
             <objects>
-                <viewController id="Tfc-Ds-msW" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginInController" id="Tfc-Ds-msW" customClass="LoginInController" customModule="Meijer_IOS_APP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FEW-Si-KU1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueberry" translatesAutoresizingMaskIntoConstraints="NO" id="QHm-1m-Inf">
@@ -65,6 +65,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Create Account"/>
+                                <connections>
+                                    <action selector="createButton:" destination="Tfc-Ds-msW" eventType="touchUpInside" id="cwo-wg-Oga"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sign In" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aE0-JL-e3i">
                                 <rect key="frame" x="79" y="262" width="256" height="34"/>
@@ -77,17 +80,20 @@
                         <viewLayoutGuide key="safeArea" id="Wy9-sy-CKo"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <segue destination="K09-fn-lCa" kind="showDetail" identifier="createAccountSegue" id="FcL-G3-b6B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wz6-au-8bk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="672.46376811594212" y="-1564.2857142857142"/>
+            <point key="canvasLocation" x="-3310" y="459"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account Controller-->
         <scene sceneID="ntB-8k-oVs">
             <objects>
-                <viewController id="K09-fn-lCa" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateAccountController" id="K09-fn-lCa" customClass="CreateAccountController" customModule="Meijer_IOS_APP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aeF-R4-9gJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="raspberry" translatesAutoresizingMaskIntoConstraints="NO" id="ZG6-sy-nAg">
@@ -141,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gmH-9O-zxI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1389.8550724637682" y="-1564.2857142857142"/>
+            <point key="canvasLocation" x="-4345" y="459"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="d3o-Ta-bR3">
@@ -218,12 +224,23 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="Cq2-4E-BQK">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="HXb-mg-r7e">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="V30-mp-Hrb">
-                                <rect key="frame" x="302" y="5" width="92" height="34.5"/>
+                        <barButtonItem key="leftBarButtonItem" title="Log In" style="plain" id="ijz-8u-Qjc">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="KyN-67-cn5">
+                                <rect key="frame" x="20" y="5" width="92" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Log In"/>
+                                <connections>
+                                    <action selector="loginButton:" destination="Tnx-cF-PBG" eventType="touchUpInside" id="QVD-nX-CbR"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="HXb-mg-r7e">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="V30-mp-Hrb">
+                                <rect key="frame" x="260" y="5" width="134" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Shopping Cart"/>
                                 <connections>
                                     <action selector="cartButton:" destination="Tnx-cF-PBG" eventType="touchUpInside" id="93g-uy-42L"/>
                                 </connections>
@@ -232,6 +249,7 @@
                     </navigationItem>
                     <connections>
                         <segue destination="vpo-aD-XpT" kind="showDetail" identifier="cartButtonPage" id="cmV-UY-P0L"/>
+                        <segue destination="Tfc-Ds-msW" kind="showDetail" identifier="loginSegue" id="X8U-oG-N4u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2NN-iC-MUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
